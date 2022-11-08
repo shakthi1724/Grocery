@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.box{
+    width: 250px;
+    height: 320px;
+    border: 1px solid black;
+    margin-left: 40px;
+    /* margin: 16px 30px 16px 0px; */
+    border-radius: 10px;
+    font-size: large;
+}
+.box:hover{
+    transform:scale(1.07);
+}
+.imgarea{
+    width: 220px;
+    height: 250px;
+    margin: 10px 15px 0px 13px; 
+}
+.images{
+    border-radius: 5px;
+}
+.listname{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+}

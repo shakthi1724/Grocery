@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.item{
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 16px 30px 16px 20px;
+    color:black;
+    /* background-color: #008ecc; */
+
+}
+.imgarea{
+    padding-top: 20px;
+}
+.item:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px gray;
+}

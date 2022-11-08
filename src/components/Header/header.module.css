@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #008ecc;
+    color: aliceblue;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.container{
+    width:90%;
+    margin: auto;
+   
+}
+.wrapper{
+    display:flex;
+    justify-content: space-between;
+    height: 85px;
+    align-items: center;
+}
+.madhouse{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 7px;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    background-color: white;
+    margin-left: 75px;
+}
+.searchbox >input{
+    border: none;
+    outline: none;
+    width: 40vw;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.navlist{
+  margin-left: 80px;
+  
+}
+.sign{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: aliceblue;
+}
+.carts{
+    margin-top: 5px;
+}
+.cart{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 40px;
+    position: relative;
+   }
+.logoutbtn{
+    background-color: #008ecc;
+    border: #008ecc solid 1px;
+    color: aliceblue;
+    font-size: larger;
+}
+.signinbtn{
+    background-color: #008ecc;
+    border: #008ecc solid 1px;
+    color: aliceblue;
+    font-size: larger;
+    margin-top: 5px;   
+    align-items: center;
+}
+.count{
+    font-size: 17px;
+    position: absolute;
+    bottom: 20px;
+    right: -11px;
+}

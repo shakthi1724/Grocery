@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    width: 270px;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 16px 30px 16px 0px;
+    color:black;
+}
+.imgarea{
+    padding-top: 20px;
+}
+.item:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px gray;
+}
+.offerbutton{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 35px;
+}

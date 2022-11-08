@@ -1,0 +1,41 @@
+.login{
+    border: 2px solid white;
+    background-color: #008ecc;
+    color:white;
+    height: 500px;
+    width:400px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 50px;
+    /* background-image: linear-gradient(to right,black,orange); */
+}
+.error{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+
+}
+.h1{
+    padding-top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.data{
+    padding-top: 45px;
+    font-size: larger;
+}
+.inputbox{
+    width: 50%;
+    height: 20px;
+    border-radius: 5px;
+    /* outline: none; */
+    border: solid 0px black;
+    margin-left: 5px;
+    /* background-color:rgb(236, 215, 215); */
+}
+.button{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    width:30%;
+    background-color: gold;
+    color: black;
+}

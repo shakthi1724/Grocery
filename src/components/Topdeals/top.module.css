@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
